@@ -9,7 +9,9 @@ router.get('/add', (req, res) => {
   res.json({
     
       "firstName": "Joe Ander",
-      "lastName": "Smith"
+      "lastName": "Smith",
+      "college":"St xavier college"
+
     
   });
 });
