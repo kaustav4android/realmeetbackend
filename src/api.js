@@ -3,23 +3,13 @@ const serverless = require("serverless-http");
 
 const app = express();
 const router = express.Router();
-// const mongoose=require('mongoose');
+const mongoose=require('mongoose');
 
 // const { MongoClient }= require("mongodb");
 // require('dotenv').config();
 
-// mongoose.connect("mongodb+srv://kaustavchaudhury:zCRS6Ole1I27Xwhv@meeting.52ohm.mongodb.net/?retryWrites=true&w=majority&appName=meeting").then(()=>console.log('Connected successfully')).catch((error)=>console.log(error));
-// var cors = require('cors')
-// app.use(express.json());
-// app.use(cors())
 
-// const userschema=new mongoose.Schema({
 
-//   username:String,
-//   email:String,
-//   password: String
-// })
-// const emp = new mongoose.model("userregistration", userschema);
 
 
 // // const userModel=new mongoose.model("users",userschema);
