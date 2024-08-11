@@ -85,7 +85,7 @@ router.get('/add', (req, res) => {
   res.json({
     
       "firstName": "Joe Anderson gghjdgjhgdhjg",
-      "lastName": "Smith",
+      "lastName": "Taylor Smith ",
       "college":"St college student"
 
     
