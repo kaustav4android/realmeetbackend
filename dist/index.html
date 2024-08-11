@@ -1,0 +1,25 @@
+<html>
+    <head>
+    </head>
+    <body>
+<h1>Mongo db</h1>
+
+<script>
+    (async () => {
+        let results = await fetch("/netlify-express-master/functions/.netlify/functions/api").then(response => response.json());
+        results.forEach(result => {
+            const listItem = document.createElement("li");
+            listItem.innerText = result.users;
+            // document.getElementById("users").appendChild(listItem);
+        });
+    })();
+</script>
+
+
+
+
+    
+
+    </body>
+
+<html>
