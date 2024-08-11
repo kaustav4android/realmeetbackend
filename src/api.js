@@ -69,16 +69,16 @@ const router = express.Router();
 	res.send(doc);
 
 })
-// router.get('/testdata', (req, res) => {
-//   res.json({
+router.get('/testdata', (req, res) => {
+  res.json({
     
-//     "firstName": "Avishek iyer",
-//     "lastName": "Smith",
-//     "college":"St xavier college student"
+    "firstName": "Avishek iyer",
+    "lastName": "Smith",
+    "college":"St xavier college student"
 
   
-// });
-// });
+});
+});
 
 router.get('/add', (req, res) => {
  // console.log('testdata');
